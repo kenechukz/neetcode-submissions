@@ -78,6 +78,7 @@ Manage your sync preferences at [neetcode.io/profile/github](https://neetcode.io
 `legacy-leetcode/` contains legacy-only solutions imported from the retired
 `LeetcodeDSA-Practice` repository. It is deliberately separate from the
 NeetCode-managed `Data Structures & Algorithms/` tree, so future automatic
-syncs cannot overwrite it. See [DUPLICATE_REVIEW.md](DUPLICATE_REVIEW.md) for
-problems represented in both collections and their recommended canonical
-solutions.
+syncs cannot overwrite it. Use [CANONICAL_SOLUTIONS.md](CANONICAL_SOLUTIONS.md)
+as the quick reference for the recommended solution to every overlapping
+problem. [DUPLICATE_REVIEW.md](DUPLICATE_REVIEW.md) contains the detailed
+comparison and rationale.
