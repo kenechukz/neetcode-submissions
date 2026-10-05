@@ -1,9 +1,9 @@
 # Duplicate solution review
 
 `Data Structures & Algorithms/` is managed by NeetCode GitHub Sync. The
-`legacy-leetcode/` import intentionally excludes every problem in this report
-until a canonical implementation is selected. The legacy link points to the
-original repository; the NeetCode path points to the synced submission(s).
+`legacy-leetcode/` contains the legacy-only import plus the approved legacy
+and rewritten canonical solutions from this report. The legacy link points to
+the original repository; the NeetCode path points to the synced submission(s).
 
 ## Decision guide
 
@@ -51,10 +51,12 @@ original repository; the NeetCode path points to the synced submission(s).
 | Longest Increasing Subsequence | [Python](https://github.com/kenechukz/LeetcodeDSA-Practice/blob/main/longest-incr-subsequence/main.py) | `longest-increasing-subsequence/submission-5.py`, `submission-6.py`, `submission-7.py` | Different | Keep legacy | Cleanest correct O(n²) DP, although an O(n log n) version would be better. |
 | Maximum Subarray | [Python](https://github.com/kenechukz/LeetcodeDSA-Practice/blob/main/max_subarray.py) | `maximum-subarray/submission-0.py`, `submission-1.py` | Different | Keep legacy | Correct Kadane O(n) with the clearest invariant; NeetCode `submission-0.py` is O(n²). |
 
-## Next decision
+## Resolution
 
-Reply with any overrides to the recommendations, grouped by problem if useful.
-For every **Keep legacy** or **Rewrite** decision, I will create the canonical
-manual solution outside the sync-managed directory. For **Keep NeetCode** and
-**Keep either**, I will leave the preferred synced file as canonical and remove
-only the legacy candidate from the migration set.
+All recommendations were approved on 2026-10-05.
+
+- **Keep legacy** selections and **Rewrite** fixes are in `legacy-leetcode/`.
+- **Keep NeetCode** and **Keep either** selections remain only in the
+  sync-managed `Data Structures & Algorithms/` directory.
+- The original `LeetcodeDSA-Practice` repository remains unchanged as the
+  historical source.
